@@ -1,0 +1,21 @@
+.h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  color: floralwhite;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  width: 500px;
+}
+body {
+  background-color: rgb(80, 78, 78);
+}
+.h1:hover ,
+.h1:active {
+  font-size: 90px;
+  transition: 1s;
+  width: 800px;
+}
+
+
